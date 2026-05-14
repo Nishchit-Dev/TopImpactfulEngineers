@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-05-14T19:42:09.748890+00:00",
+  "total_prs_analyzed": 1967,
+  "qualified_authors": 95,
+  "days_analyzed": 90,
+  "weights": {
+    "review_depth": 0.4,
+    "unblock_speed": 0.35,
+    "cross_area": 0.25
+  },
+  "top5": [
+    {
+      "login": "pauldambra",
+      "composite": 85.6,
+      "review_depth": 81.1,
+      "unblock_speed": 82.1,
+      "cross_area": 97.9,
+      "pr_count": 141,
+      "avg_depth_raw": 0.98,
+      "med_hours_raw": 0.9,
+      "reach_raw": 14,
+      "github_url": "https://github.com/pauldambra",
+      "pr_search_url": "https://github.com/PostHog/posthog/pulls?q=is%3Apr+author%3Apauldambra+is%3Amerged"
+    },
+    {
+      "login": "MattBro",
+      "composite": 81.4,
+      "review_depth": 97.9,
+      "unblock_speed": 56.8,
+      "cross_area": 89.5,
+      "pr_count": 26,
+      "avg_depth_raw": 3.12,
+      "med_hours_raw": 4.4,
+      "reach_raw": 10,
+      "github_url": "https://github.com/MattBro",
+      "pr_search_url": "https://github.com/PostHog/posthog/pulls?q=is%3Apr+author%3AMattBro+is%3Amerged"
+    },
+    {
+      "login": "Gilbert09",
+      "composite": 75.1,
+      "review_depth": 88.4,
+      "unblock_speed": 54.7,
+      "cross_area": 82.1,
+      "pr_count": 62,
+      "avg_depth_raw": 1.47,
+      "med_hours_raw": 5.7,
+      "reach_raw": 9,
+      "github_url": "https://github.com/Gilbert09",
+      "pr_search_url": "https://github.com/PostHog/posthog/pulls?q=is%3Apr+author%3AGilbert09+is%3Amerged"
+    },
+    {
+      "login": "skoob13",
+      "composite": 73.1,
+      "review_depth": 74.7,
+      "unblock_speed": 73.7,
+      "cross_area": 69.5,
+      "pr_count": 33,
+      "avg_depth_raw": 0.82,
+      "med_hours_raw": 1.3,
+      "reach_raw": 8,
+      "github_url": "https://github.com/skoob13",
+      "pr_search_url": "https://github.com/PostHog/posthog/pulls?q=is%3Apr+author%3Askoob13+is%3Amerged"
+    },
+    {
+      "login": "cat-ph",
+      "composite": 72.5,
+      "review_depth": 77.9,
+      "unblock_speed": 68.4,
+      "cross_area": 69.5,
+      "pr_count": 12,
+      "avg_depth_raw": 0.9,
+      "med_hours_raw": 2.1,
+      "reach_raw": 8,
+      "github_url": "https://github.com/cat-ph",
+      "pr_search_url": "https://github.com/PostHog/posthog/pulls?q=is%3Apr+author%3Acat-ph+is%3Amerged"
+    }
+  ]
+}
