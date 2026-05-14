@@ -242,13 +242,11 @@ export default function Dashboard() {
             PostHog · Engineering Impact Dashboard
           </h1>
           <p className="mt-1.5 text-[13px] text-[#888] max-w-xl leading-[1.5]">
-            Impact is measured by{" "}
+            Impact is the degree to which an engineer{" "}
             <strong className="text-[#bbb]">
-              how much an engineer makes the team better
+              raises the team&apos;s and the company&apos;s output
             </strong>{" "}
-            — not by how much code they write. We score on three dimensions: the
-            depth of their code reviews, how fast they unblock teammates, and
-            how broadly they contribute across the codebase.
+            beyond their own contributions.
           </p>
         </div>
 
