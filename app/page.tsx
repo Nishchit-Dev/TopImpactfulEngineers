@@ -176,6 +176,40 @@ function Methodology() {
         a single composite score. Only engineers with ≥3 merged PRs in the
         window are ranked. Bots and external accounts are filtered out.
       </p>
+
+      <div className="mt-5 pt-5 border-t border-[#1e1e1e]">
+        <p className="text-[12px] font-semibold text-[#555] uppercase tracking-[0.5px] mb-3">
+          Why these signals — not commit count or PR volume?
+        </p>
+        <div className="grid grid-cols-3 gap-4 text-[11px] text-[#555] leading-[1.7]">
+          <div>
+            <strong className="block text-[#666] mb-1">Reviews over commits</strong>
+            Commit count measures activity, not impact. An engineer can push
+            50 trivial fixes or one architectural change that ships a feature.
+            Volume is noise. Reviews, by contrast, are where knowledge spreads
+            and bugs get caught before they hit production — that&apos;s leverage.
+          </div>
+          <div>
+            <strong className="block text-[#666] mb-1">Speed as a team signal</strong>
+            Every hour a PR sits waiting is dead time for a teammate. Fast
+            reviewers compress the feedback loop for everyone around them.
+            A decent review delivered in 2 hours beats a thorough one delivered
+            in 3 days — flow matters more than perfection in most cases.
+          </div>
+          <div>
+            <strong className="block text-[#666] mb-1">Breadth as resilience</strong>
+            Engineers siloed in one area create bottlenecks. When someone
+            touches frontend, backend, and infra they reduce single points of
+            failure, make the codebase legible to more people, and can
+            unblock teammates anywhere — not just in their lane.
+          </div>
+        </div>
+        <p className="mt-4 text-[11px] text-[#3a3a3a] italic">
+          Note: the weights (40 / 35 / 25) reflect a deliberate priority — review quality
+          is weighted highest because it compounds across every engineer the reviewer touches,
+          not just their own output.
+        </p>
+      </div>
     </details>
   );
 }
